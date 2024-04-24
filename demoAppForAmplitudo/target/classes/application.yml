@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    name: MySQL Connection
+    url: jdbc:mysql://localhost:3306/amplitudobaza
+    username: root
+    password: PgSator05
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true
+    ddl-auto: update
+
+
+jwt:
+  secret: ===================================bmVraXZlY2l0YWpuaWtsanVj===================================
+  expirationMs: 1800000
+  refreshMs: 5400000
